@@ -1,0 +1,31 @@
+.marco {
+    border: 5px dotted plum;
+    perspective: 450px;
+}
+
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(252, 157, 173);
+    margin: 20px;
+    color: #fff;
+    transition: .3s;
+}
+.marco:hover .cuadrado.uno {
+    transform: translate(100px);
+}
+.marco:hover .cuadrado.dos {
+    transform: translate(0px, -120px);
+}
+.marco:hover .cuadrado.tres {
+    transform: translateZ(-200px)
+}
+.marco:hover .cuadrado.cuatro {
+    transform: translate(100px);
+}
+.marco:hover .cuadrado.cinco {
+    transform: translate(0px, 120px);
+}
+.marco:hover .cuadrado.seis {
+    transform: translate3d(-100px, -20px, 100px);
+}

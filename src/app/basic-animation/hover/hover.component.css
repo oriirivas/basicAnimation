@@ -1,0 +1,17 @@
+.pelotaOrigin{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: palevioletred;
+    /* transition-property: width, height; propiedades a cambiar
+    transition-duration:1s ;  tiempo que tarda ejecutrandose
+    transition-timing-function: ease; efecto
+    transition-delay: 0ms; tiempo que tarda en empezar la animacion*/
+    /* transition: all 1s ease; */
+    transition: 1s;
+}
+
+.pelotaOrigin:hover {
+    width: 150px;
+    height: 150px;
+}

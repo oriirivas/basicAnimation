@@ -1,0 +1,29 @@
+.marco {
+    border: 5px dotted plum;
+}
+.marco:hover .cuadrado.uno {
+    transform: rotate3d(0, 0, 1, -45deg);
+}
+.marco:hover .cuadrado.dos {
+    transform: rotate3d(1, 0, 0, 90deg);
+}
+.marco:hover .cuadrado.tres {
+    transform: rotate3d(0, 1, 0, 90deg);
+}
+.marco:hover .cuadrado.cuatro {
+    transform: rotate3d(0, 0, 1, 45deg);
+}
+.marco:hover .cuadrado.cinco {
+    transform: rotateX(90deg) rotateY(90deg) rotateZ(90deg);
+}
+.marco:hover .cuadrado.seis {
+    transform: rotate3d(1, 1, 0, 90deg);
+}
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(252, 157, 173);
+    margin: 20px;
+    color: #fff;
+    transition: .3s;
+}
