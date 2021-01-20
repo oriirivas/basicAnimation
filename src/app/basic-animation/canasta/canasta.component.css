@@ -2,6 +2,7 @@
 .canasta{
     border: 5px palevioletred dotted;
     position: relative;
+    top: -100px;
     height: 100px;
     width: 100%;
     border-radius: 10px;
