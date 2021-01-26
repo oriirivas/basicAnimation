@@ -1,0 +1,58 @@
+.marco {
+    border: 5px dotted rgb(3, 135, 139);
+}
+
+.marco:hover .cuadrado.uno,
+.marco:hover .cuadrado.tres  {
+    transform: rotateX(180deg);
+}
+.marco:hover .cuadrado.dos,
+.marco:hover .cuadrado.cuatro {
+    transform: rotateY(45deg);
+}
+.marco:hover .cuadrado.cinco {
+    transform: rotateZ(-90deg);
+}
+.marco:hover .cuadrado.seis {
+    transform: rotateZ(90deg);
+}
+.cuadrado.uno {
+    transform-origin: top;
+}
+.cuadrado.dos {
+    transform-origin: left;
+}
+.cuadrado.tres {
+    transform-origin: bottom;
+}
+.cuadrado.cuatro {
+    transform-origin: right;
+}
+.cuadrado.cinco {
+    transform-origin: left top;
+}
+.cuadrado.seis {
+    transform-origin: right top;
+}
+
+.marco:hover .cuadrado.siete {
+    transform: rotatey(-75deg);
+}
+.marco:hover .cuadrado.ocho {
+    transform: rotatey(75deg);
+}
+.cuadrado.siete {
+    transform-origin: left;
+}
+.cuadrado.ocho {
+    transform-origin: right;
+}
+
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color:  rgb(19, 208, 241);;
+    margin: 30px;
+    color: #fff;
+    transition: .3s;
+}
